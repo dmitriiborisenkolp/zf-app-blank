@@ -24,6 +24,7 @@ $modules = [
     'ExRbac',
     'Application',
     'User',
+    'DmitriiBorisenko\ZF3TimeZone'
 ];
 if (APP_ENV_DEV) {
     $modules = array_merge($modules, [

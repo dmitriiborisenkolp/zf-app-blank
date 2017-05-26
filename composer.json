@@ -40,7 +40,8 @@
         "doctrine/migrations": "dev-master",
         "bupy7/zf-form": "1.0.0",
         "kokspflanze/zfc-twig": "1.3.1",
-        "zendframework/zend-mvc-console": "1.1.11"
+        "zendframework/zend-mvc-console": "1.1.11",
+        "dmitriiborisenko/zf3-time-zone": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -56,9 +57,16 @@
     },
     "require-dev": {
         "snapshotpl/zf-snap-php-debug-bar": "0.12.1",
-        "friendsofphp/php-cs-fixer": "1.13.1"
+        "friendsofphp/php-cs-fixer": "1.13.1",
+        "zendframework/zend-test": "^3.1"
     },
     "scripts": {
         "phpcs": "php vendor/bin/php-cs-fixer fix"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/dmitriiborisenkolp/zf-time-zone-module.git"
+        }
+    ]
 }
